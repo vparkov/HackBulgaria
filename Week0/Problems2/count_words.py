@@ -8,3 +8,6 @@ def count_words(words):
                 word_counter += 1
                 a[word] = word_counter
     return a
+
+print(count_words(["apple", "banana", "apple", "pie"]))
+print(count_words(["python", "python", "python", "ruby"]))
